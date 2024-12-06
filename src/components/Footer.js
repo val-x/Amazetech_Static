@@ -82,7 +82,8 @@ export default function Footer() {
 
         {/* Footer Bottom Section */}
         <div className="border-t pt-8 text-center text-sm text-gray-600">
-          <p>Privacy Policy and Terms & Conditions</p>
+          <p>Privacy Policy and Terms & Conditions</p> 
+          <p><b> Crafted by <a href="https://www.val-x.in/" target='blank'>Val-X</a> </b></p>
         </div>
       </div>
     </footer>
