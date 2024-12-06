@@ -78,7 +78,13 @@ export default function Footer() {
                 to="/cooling"
                 className="text-gray-600 hover:text-[#90C418] block"
               >
-                Cooling Treatment Chemicals
+                Cooling Tower Treatment Chemicals
+              </Link>
+              <Link
+                to="/chiller"
+                className="text-gray-600 hover:text-[#90C418] block"
+              >
+                Chiller Treatment Chemicals
               </Link>
               <Link
                 to="/ro"
@@ -86,6 +92,36 @@ export default function Footer() {
               >
                 RO Treatment Chemicals
               </Link>
+              {/* <Link
+                to="/defoamers"
+                className="text-gray-600 hover:text-[#90C418] block"
+              >
+                Defoamers
+              </Link>
+              <Link
+                to="/paper"
+                className="text-gray-600 hover:text-[#90C418] block"
+              >
+                Paper & Sugar Processing Chemicals
+              </Link>
+              <Link
+                to="/mining"
+                className="text-gray-600 hover:text-[#90C418] block"
+              >
+                Mining & Construction Water Treatment Chemicals
+              </Link>
+              <Link
+                to="/etp"
+                className="text-gray-600 hover:text-[#90C418] block"
+              >
+                ETP Treatment Chemicals
+              </Link>
+              <Link
+                to="/stp"
+                className="text-gray-600 hover:text-[#90C418] block"
+              >
+                STP Treatment Chemicals
+              </Link> */}
             </div>
           </div>
 

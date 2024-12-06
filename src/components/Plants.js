@@ -6,13 +6,21 @@ import 'react-multi-carousel/lib/styles.css';
 
 export default function Plants() {
 
+  // const slides = [
+  //   { url: 'https://www.vizagchemical.com/sites/default/files/field/image/chemical-us-cyber-security.jpg', alt: 'Slide 1' },
+  //   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIPj-KdurCzV3LiuSm1JGGg81Gvg3rsEF5g&s', alt: 'Slide 2' },
+  //   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXD4Tuv1qNoRUrL1Oyj_OtXnWCZAs4dsTaXQ&s', alt: 'Slide 3' },
+  //   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdMeWTPyrBo53oZYuRiX7kQN_oFyOzVOSA_Q&s', alt: 'Slide 4' },
+  //   { url: 'https://t4.ftcdn.net/jpg/08/08/11/41/360_F_808114157_t79mGrerocz9bj3qp7ExhMYci45pvv37.jpg', alt: 'Slide 5' },
+  // ];
   const slides = [
-    { url: 'https://www.vizagchemical.com/sites/default/files/field/image/chemical-us-cyber-security.jpg', alt: 'Slide 1' },
-    { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIPj-KdurCzV3LiuSm1JGGg81Gvg3rsEF5g&s', alt: 'Slide 2' },
-    { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXD4Tuv1qNoRUrL1Oyj_OtXnWCZAs4dsTaXQ&s', alt: 'Slide 3' },
-    { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdMeWTPyrBo53oZYuRiX7kQN_oFyOzVOSA_Q&s', alt: 'Slide 4' },
-    { url: 'https://t4.ftcdn.net/jpg/08/08/11/41/360_F_808114157_t79mGrerocz9bj3qp7ExhMYci45pvv37.jpg', alt: 'Slide 5' },
+    { url: 'https://www.kelvinindia.in/blog/wp-content/uploads/2024/07/water-treatment-plant.jpg', alt: 'Slide 1 - Cybersecurity Chemicals' },
+    { url: 'https://www.kelvinindia.in/blog/wp-content/uploads/2024/09/industrial-waste-waer-treatment-plant.jpg', alt: 'Slide 2 - Chemical Security' },
+    { url: 'https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', alt: 'Slide 3 - Chemical Research' },
+    { url: 'https://images.pexels.com/photos/8113567/pexels-photo-8113567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', alt: 'Slide 4 - Industrial Chemicals' },
+    { url: 'https://images.pexels.com/photos/209230/pexels-photo-209230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', alt: 'Slide 5 - Chemical Production' },
   ];
+  
 
   const responsive = {
     desktop: {
