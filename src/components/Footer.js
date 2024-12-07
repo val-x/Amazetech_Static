@@ -162,32 +162,28 @@ export default function Footer() {
             </b>
           </p>
         </div> */}
-        <div className="border-t pt-8 text-center text-sm text-gray-600">
-          <p>
+        <div className="border-t pt-8 text-center text-sm text-gray-600 flex justify-center">
+          <div className="flex justify-between md:w-3/4">
             <Link
               to="/PrivacyPolicy"
               className="text-gray-600 hover:text-[#90C418] block transition duration-300 ease-in-out"
             >
               Privacy Policy
             </Link>
+            <a
+              href="https://www.val-x.in/"
+              target="blank"
+              className="hover:text-[#90C418] transition duration-300 ease-in-out font-bold"
+            >
+              Crafted by Val-X
+            </a>
             <Link
               to="/TermsAndConditions"
               className="text-gray-600 hover:text-[#90C418] block transition duration-300 ease-in-out"
             >
               Terms & Conditions
             </Link>
-          </p>
-          <p>
-            <b>
-              <a
-                href="https://www.val-x.in/"
-                target="blank"
-                className="hover:text-[#90C418] transition duration-300 ease-in-out"
-              >
-                Crafted by Val-X
-              </a>
-            </b>
-          </p>
+          </div>
         </div>
       </div>
     </footer>
