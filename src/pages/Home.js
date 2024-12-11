@@ -15,7 +15,7 @@ export default function Home() {
             <Industries />
             <Products />
             <Plants />
-            <Partner />
+            {/* <Partner /> */}
             <Footer />
         </main>
     )

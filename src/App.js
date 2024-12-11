@@ -7,6 +7,10 @@ import NotFoundPage from './components/NotFoundPage';
 import TermsAndConditions from './pages/Terms&Conditions';
 import Privacy from './pages/Privacy';
 import ScrollToTop from './components/ScrollToTop';
+import About from './pages/About';
+import Contact  from './pages/Contact';
+import Gallery  from './pages/GalleryPage';
+import Products  from './pages/ProductPage';
 
 
 const App = () => (
@@ -19,11 +23,11 @@ const App = () => (
         <Route path="*" element={<NotFoundPage />} />
         <Route path="/TermsAndConditions" element={<TermsAndConditions />} />
         <Route path="/PrivacyPolicy" element={<Privacy />} />
-        {/* <Route path="/about" element={<About />} /> */}
-        {/* <Route path="/products" element={<Products />} /> */}
+        <Route path="/about" element={<About />} />
+        <Route path="/product" element={<Products />} />
         {/* <Route path="/services" element={<Services />} /> */}
-        {/* <Route path="/gallery" element={<Gallery />} /> */}
-        {/* <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </main>
   </Router>
