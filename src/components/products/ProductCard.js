@@ -86,12 +86,12 @@ const TreatmentPlants = () => {
         <PlantCard
           icon={<EffluentIcon />}
           title="Effluent Treatment Plant"
-          productPage="/products/effluent" // Hardcoded link for the product page
+          productPage="/products/ETP" // Hardcoded link for the product page
         />
         <PlantCard
           icon={<SewageIcon />}
           title="Sewage Treatment Plant"
-          productPage="/products/sewage" // Hardcoded link for the product page
+          productPage="/products/STP" // Hardcoded link for the product page
           buttonVariant="default"
         />
         <PlantCard
