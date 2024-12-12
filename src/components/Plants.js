@@ -2,58 +2,61 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 export default function Plants() {
-  // const slides = [
-  //   { url: 'https://www.vizagchemical.com/sites/default/files/field/image/chemical-us-cyber-security.jpg', alt: 'Slide 1' },
-  //   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIPj-KdurCzV3LiuSm1JGGg81Gvg3rsEF5g&s', alt: 'Slide 2' },
-  //   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXD4Tuv1qNoRUrL1Oyj_OtXnWCZAs4dsTaXQ&s', alt: 'Slide 3' },
-  //   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdMeWTPyrBo53oZYuRiX7kQN_oFyOzVOSA_Q&s', alt: 'Slide 4' },
-  //   { url: 'https://t4.ftcdn.net/jpg/08/08/11/41/360_F_808114157_t79mGrerocz9bj3qp7ExhMYci45pvv37.jpg', alt: 'Slide 5' },
-  // ];
   const slides = [
     {
       url: "https://www.kelvinindia.in/blog/wp-content/uploads/2024/07/water-treatment-plant.jpg",
-      alt: "Slide 1 - Cybersecurity Chemicals",
+      alt: "State-of-the-art water treatment facility by Amazetech Corporation",
     },
     {
       url: "https://www.kelvinindia.in/blog/wp-content/uploads/2024/09/industrial-waste-waer-treatment-plant.jpg",
-      alt: "Slide 2 - Chemical Security",
+      alt: "Industrial wastewater treatment plant designed for efficiency",
     },
     {
-      url: "https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      alt: "Slide 3 - Chemical Research",
+      url: "https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg",
+      alt: "Chemical research laboratory for advanced water solutions",
     },
     {
-      url: "https://images.pexels.com/photos/8113567/pexels-photo-8113567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      alt: "Slide 4 - Industrial Chemicals",
+      url: "https://images.pexels.com/photos/8113567/pexels-photo-8113567.jpeg",
+      alt: "Eco-friendly industrial water treatment facility",
     },
     {
-      url: "https://images.pexels.com/photos/209230/pexels-photo-209230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      alt: "Slide 5 - Chemical Production",
+      url: "https://images.pexels.com/photos/209230/pexels-photo-209230.jpeg",
+      alt: "Modern chemical production plant for sustainable water management",
     },
   ];
 
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 2, // Show 3 images at a time
-      slidesToSlide: 1, // Scroll 1 image at a time
+      items: 3,
+      slidesToSlide: 1,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 1, // Show 2 images at a time on tablets
+      items: 2,
       slidesToSlide: 1,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1, // Show 1 image at a time on mobile
+      items: 1,
       slidesToSlide: 1,
     },
   };
 
   return (
     <section className="py-20 md:px-20 px-15 bg-[#F7F8F3]">
+      <Helmet>
+        <title>
+          World-Class Water Treatment Facilities | Amazetech Corporation
+        </title>
+        <meta
+          name="description"
+          content="Discover Amazetech Corporation's innovative water treatment facilities engineered for sustainability and efficiency."
+        />
+      </Helmet>
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-20">
           {/* Text Section */}
@@ -63,21 +66,25 @@ export default function Plants() {
               <div className="w-[40%]  h-[5%] bg-black"></div>
             </div>
             <h2 className="text-3xl font-bold mb-4">
-              Innovating Water Treatment Through{" "}
-              <span className="text-[#90C418]">World-Class Facilities</span>
+              State-of-the-Art{" "}
+              <span className="text-[#90C418]">Water Treatment Facilities</span>{" "}
+              for Sustainability
             </h2>
             <p className="text-gray-600 mb-6">
-              At Amazetech Corporation, our state-of-the-art facilities are
-              designed to deliver cutting-edge water treatment solutions,
-              ensuring efficiency and sustainability.
+              Amazetech Corporation's state-of-the-art water treatment
+              facilities are engineered to provide innovative solutions for
+              industrial, municipal, and commercial applications. Our advanced
+              technologies ensure efficiency, sustainability, and compliance
+              with environmental standards.
             </p>
 
             <button>
               <Link
                 to="/contact"
                 className="bg-[#90C418] text-white px-8 py-3 rounded-full font-medium hover:bg-[#7BA615] transition-colors"
+                aria-label="Contact Amazetech Corporation for water treatment solutions"
               >
-                Get in Touch{" "}
+                Get in Touch
               </Link>
             </button>
           </div>
@@ -98,6 +105,7 @@ export default function Plants() {
                   <img
                     src={slide.url}
                     alt={slide.alt}
+                    loading="lazy"
                     style={{
                       width: "100%",
                       height: "350px",

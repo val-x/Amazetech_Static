@@ -8,8 +8,8 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         {/* Title Section */}
         <h2 className="text-3xl font-serif text-center mb-16">
-          Ready to turn dreams to{" "}
-          <span className="text-[#90C418]">reality</span>
+          WE CARE THE PLANETS MOST PRECIOUS RESOURCES{" "}
+          <span className="text-[#90C418]"> # for a better tomorrow </span>
         </h2>
 
         {/* Footer Grid */}
