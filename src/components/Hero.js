@@ -16,12 +16,15 @@ export default function Hero() {
       </div>
       <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
         <div className="max-w-2xl text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">
+          {/* <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">
             Sustainable Energy Empowering The Customers
+          </h1> */}
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">
+          WE CARE THE PLANETS MOST PRECIOUS RESOURCES 
           </h1>
           <div className=''>
           <Link
-            to="/get-started"
+            to="/about"
             className="inline-flex items-center gap-2 bg-white/20 text-white px-8 py-3 rounded-full text-lg font-medium hover:bg-[#7BA615]  transition-colors"
           >
             Get Started
