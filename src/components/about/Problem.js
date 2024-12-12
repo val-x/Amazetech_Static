@@ -69,7 +69,7 @@ export default function Industries() {
             </p>
             {/* Learn More Link */}
             <Link
-              to="/learn-more"
+              to="/service"
               className="inline-flex items-center gap-2 text-[#90C418] border-2 border-slate-900 rounded-3xl p-3 font-medium hover:underline"
             >
               Learn More

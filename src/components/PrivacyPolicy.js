@@ -8,56 +8,56 @@ const PrivacyPolicy = () => {
       <section>
         <h2 style={styles.sectionTitle}>1. Information We Collect</h2>
         <p>
-          <strong>Personal Information:</strong> Name, email address, phone number, and other details provided by you when contacting us or purchasing our services.
+          <strong>Personal Information:</strong> We collect information such as your name, email address, phone number, and any other personal details provided when you contact us or make a purchase.
         </p>
         <p>
-          <strong>Non-Personal Information:</strong> IP address, browser type, and usage data collected automatically when you access our platform.
+          <strong>Non-Personal Information:</strong> We collect non-personal information such as IP address, browser type, and usage data when you access our website or platform.
         </p>
       </section>
       <section>
         <h2 style={styles.sectionTitle}>2. How We Use Your Information</h2>
         <ul>
-          <li>To provide and improve our services.</li>
-          <li>To communicate updates, offers, and service-related information.</li>
-          <li>To comply with legal requirements.</li>
+          <li>To provide and improve the services we offer to you.</li>
+          <li>To send you updates, promotional offers, and important service-related notifications.</li>
+          <li>To comply with legal obligations and regulatory requirements.</li>
         </ul>
       </section>
       <section>
         <h2 style={styles.sectionTitle}>3. Information Sharing</h2>
         <p>
-          We do not sell, rent, or share your information with third parties, except:
+          We do not sell, rent, or share your personal information with third parties, except in the following cases:
         </p>
         <ul>
-          <li>When required by law or legal proceedings.</li>
+          <li>When required by law, government request, or legal proceedings.</li>
           <li>
-            With trusted partners assisting us in delivering services (e.g., payment gateways), bound by confidentiality agreements.
+            With trusted service partners (such as payment gateways) who assist us in providing services, bound by confidentiality agreements.
           </li>
         </ul>
       </section>
       <section>
         <h2 style={styles.sectionTitle}>4. Cookies</h2>
         <p>
-          Our website/application may use cookies to enhance user experience. You can control cookie preferences through your browser settings.
+          Our website uses cookies to improve your browsing experience. You can control your cookie preferences through your browser settings at any time.
         </p>
       </section>
       <section>
         <h2 style={styles.sectionTitle}>5. Data Security</h2>
         <p>
-          We employ industry-standard measures to protect your data from unauthorized access, disclosure, or destruction. However, no method is 100% secure, and we cannot guarantee absolute security.
+          We implement industry-standard security measures to protect your data from unauthorized access or disclosure. However, no security system is infallible, and we cannot guarantee absolute security.
         </p>
       </section>
       <section>
         <h2 style={styles.sectionTitle}>6. Your Rights</h2>
         <ul>
-          <li>Access your personal data.</li>
-          <li>Request corrections or deletions of your data.</li>
-          <li>Withdraw consent to data processing.</li>
+          <li>You have the right to access your personal data.</li>
+          <li>You can request corrections or deletions of your personal data.</li>
+          <li>You can withdraw consent to data processing at any time.</li>
         </ul>
       </section>
       <section>
         <h2 style={styles.sectionTitle}>7. Changes to Privacy Policy</h2>
         <p>
-          We may update this policy periodically. Changes will be posted on this page, and your continued use of our platform constitutes acceptance of the updated policy.
+          We may update this privacy policy from time to time. Any changes will be posted on this page. Continued use of our platform indicates your acceptance of the updated policy.
         </p>
       </section>
     </div>

@@ -126,12 +126,12 @@ export default function Footer() {
               >
                 Paper & Sugar Processing Chemicals
               </Link>
-              <Link
+              {/* <Link
                 to="/product"
                 className="text-gray-600 hover:text-[#90C418] block"
               >
                 Mining & Construction Water Treatment Chemicals
-              </Link>
+              </Link> */}
               <Link
                 to="/products/ETP"
                 className="text-gray-600 hover:text-[#90C418] block"
