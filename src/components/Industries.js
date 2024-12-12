@@ -46,11 +46,11 @@ export default function Industries() {
           {/* Text Content */}
           <div>
             <h2 className="text-3xl font-bold mb-6">
-              Empowering Industries with{' '}
-              <span className="text-[#90C418]">Chemical Ingenuity</span>
+            Caring for the Planet's{' '}
+              <span className="text-[#90C418]">Most Precious Resources</span>
             </h2>
             <p className="text-gray-600 mb-8">
-              At India Private Limited, part of the tri-state chemical group, was founded in 1995 with a clear vision
+            Amazetech Corporation, a leader in water and wastewater treatment solutions, is dedicated to ensuring a sustainable future.
             </p>
             <div className="space-y-6 mb-8">
               {/* Feature 1 */}
@@ -59,7 +59,7 @@ export default function Industries() {
                 <div>
                   <h3 className="font-bold mb-2">Industry Leadership</h3>
                   <p className="text-gray-600">
-                    Expertise in delivering comprehensive water treatment solutions across industries
+                  Expertise in providing comprehensive water treatment solutions for industries, institutions, homes, and communities.
                   </p>
                 </div>
               </div>
@@ -67,16 +67,16 @@ export default function Industries() {
               <div className="flex gap-4">
                 <Activity className="h-8 w-8 text-[#90C418] flex-shrink-0" />
                 <div>
-                  <h3 className="font-bold mb-2">Industry Leadership</h3>
+                  <h3 className="font-bold mb-2">Driving Sustainability</h3>
                   <p className="text-gray-600">
-                    Dedicated to revolutionizing the water treatment industry through innovation
+                  Dedicated to conserving water through innovative, eco-friendly technologies and solutions.
                   </p>
                 </div>
               </div>
             </div>
             {/* Learn More Link */}
             <Link
-              to="/learn-more"
+              to="/service"
               className="inline-flex items-center gap-2 text-[#90C418] border-2 border-slate-900 rounded-3xl  p-3 bo font-medium hover:underline"
             >
               Learn More
