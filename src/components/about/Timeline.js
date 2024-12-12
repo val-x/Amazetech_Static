@@ -22,44 +22,13 @@ export default function Timeline() {
             contentArrowStyle={{ borderRight: "7px solid  #6F9700" }}
             iconStyle={{ background: "#000", color: "#fff" }}
           >
-            <h1 className="text-2xl font-bold">OUR LEGACY</h1>
+            <h2 className="text-2xl font-bold">OUR LEGACY</h2>
 
             <p>
-              With over 7 years of expertise, Amazetech Corporation has quickly
-              become a trusted leader in water treatment and specialty
-              chemicals, delivering innovative, customer-focused solutions.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            iconStyle={{ background: "#000", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  #6F9700" }}
-            // icon={<WorkIcon />}
-            contentStyle={{ background: "#6F9700", color: "#fff" }}
-          >
-            <h1 className="text-2xl font-bold">OUR SOLUTION</h1>
-
-            <p>
-              Amazetech Corporation provides specialty water treatment chemicals
-              and high-performance plants like ETPs, STPs, and RO systems,
-              offering tailored, eco-friendly solutions from design to
-              after-sales support.{" "}
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "#6F9700", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  #6F9700" }}
-            iconStyle={{ background: "#000", color: "#fff" }}
-            // icon={<WorkIcon />}
-          >
-            <h1 className="text-2xl font-bold">OUR COMMITMENT</h1>
-
-            <p>
-              At Amazetech Corporation, we prioritize quality, sustainability,
-              and cost-effectiveness. Our rigorously tested, eco-friendly
-              products ensure top performance while minimizing environmental
-              impact.
+              With over <strong>7 years of expertise</strong>, Amazetech
+              Corporation has become a trusted leader in{" "}
+              <strong>water treatment</strong> and specialty chemicals,
+              delivering innovative, customer-focused solutions.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -67,17 +36,47 @@ export default function Timeline() {
             iconStyle={{ background: "#000", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #6F9700" }}
             contentStyle={{ background: "#6F9700", color: "#fff" }}
-            // icon={<WorkIcon />}
           >
-            <h1 className="text-2xl font-bold">CUSTOMER FOCUS</h1>
+            <h2 className="text-2xl font-bold">OUR SOLUTION</h2>
 
             <p>
-              At Amazetech Corporation, we are dedicated to building lasting
-              client relationships by delivering customized solutions for every
-              need, from small-scale operations to large industrial plants. Our
-              services include on-site assessments, lab trials, technical
-              support, and reliable after-sales service to ensure the best
-              customer experience.
+              Amazetech Corporation provides{" "}
+              <strong>specialty water treatment chemicals</strong> and
+              high-performance systems like <strong>ETPs, STPs,</strong> and
+              <strong> RO plants</strong>. We offer tailored, eco-friendly
+              solutions with end-to-end support from design to after-sales.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "#6F9700", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  #6F9700" }}
+            iconStyle={{ background: "#000", color: "#fff" }}
+          >
+            <h2 className="text-2xl font-bold">OUR COMMITMENT</h2>
+
+            <p>
+              At Amazetech Corporation, we prioritize{" "}
+              <strong>quality, sustainability,</strong> and{" "}
+              <strong>cost-effectiveness</strong>. Our rigorously tested,
+              eco-friendly products deliver exceptional performance while
+              reducing environmental impact.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            iconStyle={{ background: "#000", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  #6F9700" }}
+            contentStyle={{ background: "#6F9700", color: "#fff" }}
+          >
+            <h2 className="text-2xl font-bold">CUSTOMER FOCUS</h2>
+
+            <p>
+              At Amazetech Corporation, we deliver{" "}
+              <strong>customized water treatment solutions</strong> for
+              operations of all sizes, from small businesses to industrial
+              plants. Our services include on-site assessments, lab trials,
+              technical support, and reliable after-sales service.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -85,16 +84,15 @@ export default function Timeline() {
             iconStyle={{ background: "#000", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #6F9700" }}
             contentStyle={{ background: "#6F9700", color: "#fff" }}
-            // icon={<SchoolIcon />}
           >
-            <h1 className="text-2xl font-bold">INNOVATION AND GROWTH</h1>
+            <h2 className="text-2xl font-bold">INNOVATION AND GROWTH</h2>
 
             <p>
-              At Amazetech Corporation, innovation is at the core of our
-              operations. Through continuous R&D, we develop advanced water
-              treatment solutions that meet modern industry challenges. From our
-              inception in 2020 to becoming a trusted leader, we remain
-              committed to excellence and future-ready technologies.
+              Innovation is central to our growth. Through continuous{" "}
+              <strong>research and development (R&D)</strong>, we provide
+              advanced solutions for modern industry challenges. Since 2020,
+              we’ve remained committed to future-ready technologies and
+              excellence.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
