@@ -6,7 +6,7 @@ import ContactForm from '../components/contact/ContactForm'
 
 export default function Contact() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen px-5 md:px-0">
             <Header />
             <ConTop/>  
             <ContactForm/>

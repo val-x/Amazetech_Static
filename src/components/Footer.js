@@ -138,7 +138,7 @@ export default function Footer() {
                   amazetechcrpn999@gmail.com
                 </a>
               </p>
-              <p>+91 9946303595</p>
+              <p>+91 123456789</p>
             </div>
           </div>
         </div>

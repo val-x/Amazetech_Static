@@ -11,6 +11,10 @@ import About from './pages/About';
 import Contact  from './pages/Contact';
 import Gallery  from './pages/GalleryPage';
 import Products  from './pages/ProductPage';
+import Services from './pages/Service';
+import ProductDetails from './pages/ProductDetails';
+import SewageDetails from './pages/SewageDetails';
+import OilPage from './pages/OilPage';
 
 
 const App = () => (
@@ -25,7 +29,10 @@ const App = () => (
         <Route path="/PrivacyPolicy" element={<Privacy />} />
         <Route path="/about" element={<About />} />
         <Route path="/product" element={<Products />} />
-        {/* <Route path="/services" element={<Services />} /> */}
+        <Route path="/products/effluent" element={<ProductDetails />} />
+        <Route path="/products/sewage" element={<SewageDetails />} />
+        <Route path="/products/oil" element={<OilPage />} />
+        <Route path="/service" element={<Services />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
