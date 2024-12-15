@@ -17,12 +17,41 @@ import ProductDetails from "./pages/ProductDetails";
 import SewageDetails from "./pages/SewageDetails";
 import OilPage from "./pages/OilPage";
 
-const App = () => (
-  <Router>
-    {/* <Header /> */}
+// const App = () => (
+//   <Router>
+//     {/* <Header /> */}
+//     <main className="">
+//       <ScrollToTop />
+//       <GoToTopButton />
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="*" element={<NotFoundPage />} />
+//         <Route path="/TermsAndConditions" element={<TermsAndConditions />} />
+//         <Route path="/PrivacyPolicy" element={<Privacy />} />
+//         <Route path="/about" element={<About />} />
+//         <Route path="/product" element={<Products />} />
+//         <Route path="/products/ETP" element={<ProductDetails />} />
+//         <Route path="/products/STP" element={<SewageDetails />} />
+//         <Route path="/products/oil" element={<OilPage />} />
+//         <Route path="/service" element={<Services />} />
+//         <Route path="/gallery" element={<Gallery />} />
+//         <Route path="/contact" element={<Contact />} />
+//       </Routes>
+//     </main>
+//   </Router>
+// );
+
+// export default App;
+
+// Wrapper component for App to use hooks like useLocation
+const AppWithConditionalButton = () => {
+  const location = useLocation();
+
+  return (
     <main className="">
       <ScrollToTop />
-      <GoToTopButton />
+      {/* Conditionally render GoToTopButton */}
+      {location.pathname !== "/contact" && <GoToTopButton />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFoundPage />} />
@@ -38,6 +67,12 @@ const App = () => (
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </main>
+  );
+};
+
+const App = () => (
+  <Router>
+    <AppWithConditionalButton />
   </Router>
 );
 
