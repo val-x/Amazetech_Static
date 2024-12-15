@@ -1,27 +1,28 @@
 // src/App.jsx
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route , useLocation } from "react-router-dom";
 
-import Home from './pages/Home';
-import NotFoundPage from './components/NotFoundPage';
-import TermsAndConditions from './pages/Terms&Conditions';
-import Privacy from './pages/Privacy';
-import ScrollToTop from './components/ScrollToTop';
-import About from './pages/About';
-import Contact  from './pages/Contact';
-import Gallery  from './pages/GalleryPage';
-import Products  from './pages/ProductPage';
-import Services from './pages/Service';
-import ProductDetails from './pages/ProductDetails';
-import SewageDetails from './pages/SewageDetails';
-import OilPage from './pages/OilPage';
-
+import Home from "./pages/Home";
+import NotFoundPage from "./components/NotFoundPage";
+import GoToTopButton from "./components/GoToTopButton ";
+import TermsAndConditions from "./pages/Terms&Conditions";
+import Privacy from "./pages/Privacy";
+import ScrollToTop from "./components/ScrollToTop";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Gallery from "./pages/GalleryPage";
+import Products from "./pages/ProductPage";
+import Services from "./pages/Service";
+import ProductDetails from "./pages/ProductDetails";
+import SewageDetails from "./pages/SewageDetails";
+import OilPage from "./pages/OilPage";
 
 const App = () => (
   <Router>
     {/* <Header /> */}
     <main className="">
-    <ScrollToTop />
+      <ScrollToTop />
+      <GoToTopButton />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFoundPage />} />

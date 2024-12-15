@@ -47,11 +47,10 @@ export default function Footer() {
                 </Link>
               ))}
             </div>
-            
           </div>
 
           {/* Pages Section */}
-          <div>
+          {/* <div>
             <h3 className="font-bold mb-4">Pages</h3>
             {["Home", "About", "Services", "Contact"].map((page, index) => (
               <Link
@@ -62,6 +61,35 @@ export default function Footer() {
                 {page}
               </Link>
             ))}
+          </div> */}
+          <div>
+            <h3 className="font-bold mb-4">Pages</h3>
+            <div className="space-y-2">
+              <Link
+                to="/"
+                className="text-gray-600 hover:text-[#90C418] block"
+              >
+                Home
+              </Link>
+              <Link
+                to="/about"
+                className="text-gray-600 hover:text-[#90C418] block"
+              >
+                About
+              </Link>
+              <Link
+                to="/service"
+                className="text-gray-600 hover:text-[#90C418] block"
+              >
+                Services
+              </Link>
+              <Link
+                to="/contact"
+                className="text-gray-600 hover:text-[#90C418] block"
+              >
+                Contact
+              </Link>
+            </div>
           </div>
 
           {/* Products Section */}
