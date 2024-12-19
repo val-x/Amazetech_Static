@@ -7,7 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 export default function Timeline() {
   return (
-    <div className="p-2 md:p-10">
+    <div className="p-2 bg-white md:p-10">
       <h2 className="md:text-5xl text-3xl font-bold mb-4 flex justify-center items-center">
         Work With <span className="text-[#90C418] px-5"> US </span>
       </h2>
@@ -22,7 +22,7 @@ export default function Timeline() {
             contentArrowStyle={{ borderRight: "7px solid  #6F9700" }}
             iconStyle={{ background: "#000", color: "#fff" }}
           >
-            <h2 className="text-2xl font-bold">OUR LEGACY</h2>
+            <h2 className="text-2xl text-white font-bold">OUR LEGACY</h2>
 
             <p>
               With over <strong>7 years of expertise</strong>, Amazetech

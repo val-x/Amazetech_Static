@@ -4,7 +4,7 @@ import { Facebook, Twitter, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 px-10 md:px-20 pt-20 pb-10">
+    <footer className="bg-[#E8F6D5] px-10 md:px-20 pt-20 pb-10">
       <div className="container mx-auto px-4">
         {/* Title Section */}
         <h2 className="text-3xl font-serif text-center mb-16 leading-relaxed">
@@ -19,7 +19,8 @@ export default function Footer() {
         </h2>
 
         {/* Footer Grid */}
-        <div className="grid md:grid-cols-4 gap-12 mb-12">
+        <div className="bg-white p-10 rounded-xl">
+        <div className="grid md:grid-cols-4  gap-12 mb-12">
           {/* Company Info */}
           <div>
             <Link to="/" className="text-xl font-bold mb-4 block">
@@ -219,6 +220,8 @@ export default function Footer() {
             Terms & Conditions
           </Link>
         </div>
+        </div>
+        
       </div>
     </footer>
   );

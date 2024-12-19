@@ -168,7 +168,7 @@ export default function Products() {
   ];
 
   return (
-    <section className="py-20 px-10 md:px-20 bg-white">
+    <section className="py-20 px-4 md:px-20 bg-white">
       <Helmet>
         <title>
           Innovative Water Treatment Products | Amazetech Corporation
@@ -180,11 +180,11 @@ export default function Products() {
       </Helmet>
       <div className="w-full h-[30px] pl-5 mb-3 flex items-center">
         <div className="w-[40%] ml-3 md:ml-8 h-[5%] bg-black"></div>
-        <div className="pl-3 font-bold">Our Innovative Product Range</div>
+        <div className="pl-3  font-bold">Our Innovative Product Range</div>
       </div>
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="md:text-5xl text-3xl font-bold mb-4">
+          <h2 className="md:text-5xl text-lg sm:text-3xl font-bold mb-4">
             Explore{" "}
             <span className="text-[#90C418]">
               Innovative Water Treatment Chemicals

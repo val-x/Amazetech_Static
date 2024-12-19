@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function ContactForm() {
   return (
-    <div className="w-full max-w-[500px] bg-black border-none rounded-xl p-6 mx-auto">
+    <div className='pb-10 md:py-20'>
+      <div className="w-full max-w-[500px] bg-black border-none rounded-xl p-6 mx-auto">
       <div className="space-y-6">
         <h2 className="text-3xl font-bold text-center text-white">
           Get In <span className="text-[#00FF00]">Touch</span>
@@ -40,5 +41,7 @@ export default function ContactForm() {
         </form>
       </div>
     </div>
+    </div>
+    
   );
 }

@@ -5,7 +5,7 @@ import Wind from "../assest/wind.png";
 
 export default function Industries() {
   return (
-    <section className="py-20 p-10 md:px-20 bg-[#F7F8F3]">
+    <section className="py-10 p-5 md:px-20 bg-[#F7F8F3]">
       <div className="container mx-auto  px-4">
         <div className="grid md:grid-cols-2 gap-12  items-center">
           {/* Image Grid */}

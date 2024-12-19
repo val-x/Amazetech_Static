@@ -1,16 +1,20 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import LOGO from '../assest/logo.jpg'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/10 backdrop-blur-md">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="text-xl font-bold text-white">
-            LOGO
+            <img src={LOGO}
+             className='h-10 w-15'
+            alt='Amazetech Cor'
+            />
           </Link>
 
           {/* Desktop Navigation */}
