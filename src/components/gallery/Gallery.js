@@ -26,13 +26,13 @@ export default function Gallery() {
             <img
               className="img"
               loading="lazy"
-              alt="WaterImage"
+              alt="Wastewater Consultancy"
               src={wastewater_consultancy}
             />
             <img
               className="img"
               loading="lazy"
-              alt="WaterImage"
+              alt="Water Lab Testing"
               src={water_lab_testing}
             />
           </div>
@@ -40,13 +40,13 @@ export default function Gallery() {
           <img
               className="img"
               loading="lazy"
-              alt="WaterImage"
+              alt="Refreshing The Planet"
               src={Refreshing_the_planet}
             />
             <img
               className="img"
               loading="lazy"
-              alt="WaterImage"
+              alt="Adding value accross sectors"
               src={Adding_value_accross_sectors}
             />
           </div>
@@ -54,19 +54,19 @@ export default function Gallery() {
           <img
               className="img"
               loading="lazy"
-              alt="WaterImage"
+              alt="Innovations"
               src={Innovations}
             />
            <img
               className="img"
               loading="lazy"
-              alt="WaterImage"
+              alt="Water Services"
               src={water_services}
             />
             <img
               className="img"
               loading="lazy"
-              alt="WaterImage"
+              alt="Industrial boiler cleaning"
               src={industrial_boiler_cleaning}
             />
           </div>
