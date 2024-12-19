@@ -1,6 +1,9 @@
 import { SitemapStream, streamToPromise } from "sitemap";
 import fs from "fs";
 
+const hostname = "https://www.amazetechglobal.com";
+const sitemapFilePath = "./public/sitemap.xml";
+
 const links = [
   {
     url: "/",
@@ -26,10 +29,94 @@ const links = [
       },
     ],
   },
+  {
+    url: "/TermsAndConditions",
+    changefreq: "yearly",
+    priority: 0.5,
+  },
+  {
+    url: "/PrivacyPolicy",
+    changefreq: "yearly",
+    priority: 0.5,
+  },
+  {
+    url: "/product",
+    changefreq: "weekly",
+    priority: 0.8,
+    img: [
+      {
+        url: "https://www.amazetechglobal.com/images/products-banner.jpg",
+        title: "Product Page Banner",
+        caption: "Explore our products for water treatment solutions",
+      },
+    ],
+  },
+  {
+    url: "/products/ETP",
+    changefreq: "monthly",
+    priority: 0.7,
+    img: [
+      {
+        url: "https://www.amazetechglobal.com/images/etp-product.jpg",
+        title: "ETP Product",
+        caption: "Effluent Treatment Plant Solutions",
+      },
+    ],
+  },
+  {
+    url: "/products/STP",
+    changefreq: "monthly",
+    priority: 0.7,
+    img: [
+      {
+        url: "https://www.amazetechglobal.com/images/stp-product.jpg",
+        title: "STP Product",
+        caption: "Sewage Treatment Plant Solutions",
+      },
+    ],
+  },
+  {
+    url: "/products/oil",
+    changefreq: "monthly",
+    priority: 0.7,
+    img: [
+      {
+        url: "https://www.amazetechglobal.com/images/oil-treatment.jpg",
+        title: "Oil Treatment Solutions",
+        caption: "High-performance oil treatment solutions",
+      },
+    ],
+  },
+  {
+    url: "/service",
+    changefreq: "weekly",
+    priority: 0.8,
+    img: [
+      {
+        url: "https://www.amazetechglobal.com/images/services-banner.jpg",
+        title: "Service Page Banner",
+        caption: "Discover our professional water treatment services",
+      },
+    ],
+  },
+  {
+    url: "/gallery",
+    changefreq: "monthly",
+    priority: 0.6,
+    img: [
+      {
+        url: "https://www.amazetechglobal.com/images/gallery-banner.jpg",
+        title: "Gallery",
+        caption: "Explore our projects and achievements",
+      },
+    ],
+  },
+  {
+    url: "/contact",
+    changefreq: "monthly",
+    priority: 0.6,
+  },
 ];
-
-const hostname = "https://www.amazetechglobal.com";
-const sitemapFilePath = "./public/sitemap.xml";
 
 (async () => {
   const stream = new SitemapStream({ hostname });
@@ -42,5 +129,5 @@ const sitemapFilePath = "./public/sitemap.xml";
   const sitemapBuffer = await streamToPromise(stream);
   fs.writeFileSync(sitemapFilePath, sitemapBuffer.toString("utf-8"));
 
-  console.log(`Sitemap with images successfully generated at ${sitemapFilePath}`);
+  console.log(`Sitemap successfully generated at ${sitemapFilePath}`);
 })();
