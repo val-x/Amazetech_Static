@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /admin
-Disallow: /private-data
-Allow: /
-
-Sitemap: https://www.amazetechglobal.com/sitemap.xml

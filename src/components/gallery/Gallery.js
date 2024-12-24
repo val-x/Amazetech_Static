@@ -1,12 +1,12 @@
 import React from "react";
 import "./Gallery.css";
 import Water from "../../assest/water.jpg";
-import Innovations from "../../assest/Innovations.webp";
-import Refreshing_the_planet from "../../assest/Refreshing_the_planet.webp";
+import Innovations from "../../assest/Innovations.jpg";
+import Refreshing_the_planet from "../../assest/Refreshing_the_planet.jpg";
 import Adding_value_accross_sectors from "../../assest/Adding_value_accross_sectors.png";
 import wastewater_consultancy from "../../assest/wastewater_consultancy.jpg";
 import water_lab_testing from "../../assest/industrial_boiler_cleaning.avif";
-import water_services from "../../assest/water_services.webp";
+import water_services from "../../assest/water_services.jpg";
 import industrial_boiler_cleaning from "../../assest/industrial_boiler_cleaning.avif";
 
 export default function Gallery() {
