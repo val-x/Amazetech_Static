@@ -66,9 +66,6 @@ const AppWithConditionalButton = () => {
         <Route path="/PrivacyPolicy" element={<Privacy />} />
         <Route path="/about" element={<About />} />
         <Route path="/product" element={<Products />} />
-        <Route path="/products/ETP" element={<ProductDetails />} />
-        <Route path="/products/STP" element={<SewageDetails />} />
-        <Route path="/products/oil" element={<OilPage />} />
         <Route path="/service" element={<Services />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
@@ -79,6 +76,9 @@ const AppWithConditionalButton = () => {
         <Route path="/products/Defoamers" element={<Deformers/>} />
         <Route path="/products/Paper" element={<Paper/>} />
         <Route path="/products/Mining" element={<Mining/>} />
+        <Route path="/products/ETP" element={<ProductDetails />} />
+        <Route path="/products/STP" element={<SewageDetails />} />
+        <Route path="/products/oil" element={<OilPage />} />
       </Routes>
     </main>
   );

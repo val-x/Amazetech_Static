@@ -1,21 +1,20 @@
 import React from 'react';
-import IMG1 from '../../../../assest/wind.png'
-
+import IMG1 from '../../../../assest/wind.png';
 
 export default function Page() {
   const benefits = [
-    "Boiler industrial effluent",
-    "Reduce fresh water usage",
-    "Protect the environment",
-    "Comply with pollution standards",
-    "Cut water acquisition costs",
+    "Maximize chiller efficiency",
+    "Prevent scale buildup",
+    "Reduce energy consumption",
+    "Extend equipment lifespan",
+    "Lower maintenance costs",
   ];
 
   const treatmentSteps = [
-    "Preliminary Treatment",
-    "Primary Treatment",
-    "Secondary or Biological Treatment",
-    "Tertiary/advanced/disinfection treatment",
+    "System inspection and analysis",
+    "Chemical treatment program",
+    "Performance optimization",
+    "Regular monitoring and maintenance",
   ];
 
   return (
@@ -26,7 +25,7 @@ export default function Page() {
           <div className="relative aspect-video w-full rounded-lg overflow-hidden">
             <img
               src={IMG1}
-              alt="Effluent Treatment Plant"
+              alt="Chiller Treatment Solutions"
               fill
               className="h-full w-full"
               priority
@@ -35,15 +34,11 @@ export default function Page() {
 
           {/* Right column with benefits */}
           <div className="p-4 bg-white border-2 border-black shadow-none rounded-lg">
-           
-          
             <ul className="space-y-2">
-           
               {benefits.map((benefit, index) => (
                 <div className='h-[50px] rounded-full flex items-center px-5 bg-[#F1F8E8]'>
-                    <li key={index} className="text-sm">{benefit}</li>
+                  <li key={index} className="text-sm">{benefit}</li>
                 </div>
-                
               ))}
             </ul>
           </div>
@@ -52,7 +47,7 @@ export default function Page() {
         {/* Title and CTA */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
-            chiller
+            Chiller Treatment Solutions
           </h1>
 
           <button
@@ -65,9 +60,15 @@ export default function Page() {
 
         {/* Process Section */}
         <section>
-            <p className='mb-10 w-[70%]'>Effluent Treatment Plant or ETP is one type of waste water treatment method which is particularly designed to purify industrial waste water for its reuse and it’s aim is to release safe water to environment from the harmful effect caused by the effluent. Industrial effluents contain various materials, depending on the industry. Some effluents contain oils and grease, and some contain toxic materials.</p>
+          <p className='mb-10 w-[70%]'>
+            Our chiller treatment solutions are designed to optimize your HVAC system's performance 
+            and efficiency. We provide specialized chemical treatments that prevent scale formation, 
+            control corrosion, and inhibit biological growth in your chiller systems. Our comprehensive 
+            approach ensures maximum heat transfer efficiency, reduced energy consumption, and extended 
+            equipment life while maintaining optimal system performance.
+          </p>
           <h2 className="text-xl font-semibold mb-2 text-gray-800">
-            Boiler Treatment
+            Treatment Process
           </h2>
           <ul className="space-y-1">
             {treatmentSteps.map((step, index) => (

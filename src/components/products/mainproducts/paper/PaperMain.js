@@ -1,21 +1,20 @@
 import React from 'react';
-import IMG1 from '../../../../assest/wind.png'
-
+import IMG1 from '../../../../assest/wind.png';
 
 export default function Page() {
   const benefits = [
-    "Paper",
-    "Reduce fresh water usage",
-    "Protect the environment",
-    "Comply with pollution standards",
-    "Cut water acquisition costs",
+    "Improve paper quality",
+    "Optimize fiber retention",
+    "Enhance process efficiency",
+    "Reduce water consumption",
+    "Control biological growth",
   ];
 
   const treatmentSteps = [
-    "Preliminary Treatment",
-    "Primary Treatment",
-    "Secondary or Biological Treatment",
-    "Tertiary/advanced/disinfection treatment",
+    "Water system analysis",
+    "Chemical program implementation",
+    "Process optimization",
+    "Quality monitoring and control",
   ];
 
   return (
@@ -26,7 +25,7 @@ export default function Page() {
           <div className="relative aspect-video w-full rounded-lg overflow-hidden">
             <img
               src={IMG1}
-              alt="Effluent Treatment Plant"
+              alt="Paper Industry Solutions"
               fill
               className="h-full w-full"
               priority
@@ -35,15 +34,11 @@ export default function Page() {
 
           {/* Right column with benefits */}
           <div className="p-4 bg-white border-2 border-black shadow-none rounded-lg">
-           
-          
             <ul className="space-y-2">
-           
               {benefits.map((benefit, index) => (
                 <div className='h-[50px] rounded-full flex items-center px-5 bg-[#F1F8E8]'>
-                    <li key={index} className="text-sm">{benefit}</li>
+                  <li key={index} className="text-sm">{benefit}</li>
                 </div>
-                
               ))}
             </ul>
           </div>
@@ -52,7 +47,7 @@ export default function Page() {
         {/* Title and CTA */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
-            Cooling Treatment Plant
+            Paper Industry Solutions
           </h1>
 
           <button
@@ -65,9 +60,15 @@ export default function Page() {
 
         {/* Process Section */}
         <section>
-            <p className='mb-10 w-[70%]'>Cooling Plant or ETP is one type of waste water treatment method which is particularly designed to purify industrial waste water for its reuse and it’s aim is to release safe water to environment from the harmful effect caused by the effluent. Industrial effluents contain various materials, depending on the industry. Some effluents contain oils and grease, and some contain toxic materials.</p>
+          <p className='mb-10 w-[70%]'>
+            Our specialized chemical solutions for the paper industry are designed to optimize your paper 
+            manufacturing process. We provide comprehensive treatment programs that improve paper quality, 
+            enhance fiber retention, and control microbial growth. Our expert team ensures efficient water 
+            management while maintaining product quality and reducing operational costs in paper mills and 
+            processing facilities.
+          </p>
           <h2 className="text-xl font-semibold mb-2 text-gray-800">
-            Industrial Effluent Treatment Process
+            Treatment Process
           </h2>
           <ul className="space-y-1">
             {treatmentSteps.map((step, index) => (
