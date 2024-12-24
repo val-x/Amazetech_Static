@@ -3,13 +3,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import Water from "../assest/water.jpg";
-import Refreshing_the_planet from "../assest/Refreshing_the_planet.webp";
-import Innovations from "../assest/Innovations.webp";
+import Refreshing_the_planet from "../assest/Refreshing_the_planet.jpg";
+import Innovations from "../assest/Innovations.jpg";
 import Adding_value_accross_sectors from "../assest/Adding_value_accross_sectors.png";
-import water_services from "../assest/water_services.webp";
+import water_services from "../assest/water_services.jpg";
 import { Helmet } from "react-helmet";
 // import Carousel from "react-bootstrap/Carousel";
-import { Pagination, Navigation, EffectFade } from "swiper/modules";
+import { Pagination, Navigation, EffectFade, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -42,6 +42,7 @@ export default function Hero() {
 
       <Swiper
         spaceBetween={30}
+        style={{ '--swiper-pagination-color': 'white' ,'--swiper-navigation-color': 'white' }}
         effect={"fade"}
         navigation={true}
         loop={true}
@@ -52,7 +53,7 @@ export default function Hero() {
         pagination={{
           clickable: true,
         }}
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
@@ -62,8 +63,8 @@ export default function Hero() {
             loading="lazy"
             className="absolute h-full md:h-screen w-[100%] "
           />
-          <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
-            <div className="md:max-w-2xl text-center">
+          <div className="relative  container mx-auto px-4 h-full flex items-center justify-center">
+            <div className="md:max-w-2xl text-center ">
               <h1 className=" text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">
                 Conserving the Planet's Most Precious Resources with Innovative
                 Water Treatment
@@ -94,8 +95,8 @@ export default function Hero() {
             loading="lazy"
             className="absolute h-full md:h-screen w-[100%] "
           />
-          <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
-            <div className="md:max-w-2xl text-center">
+          <div className="relative   container mx-auto px-4 h-full flex items-center justify-center">
+            <div className=" md:max-w-2xl text-center">
               <h1 className=" text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">
                 Refreshing the planet for over 7 years
               </h1>
@@ -120,6 +121,8 @@ export default function Hero() {
               </div>
             </div>
           </div>
+          
+
         </SwiperSlide>
         <SwiperSlide>
           <img
@@ -129,7 +132,8 @@ export default function Hero() {
             alt="Innovations for a Sustainable Future "
           />
           <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
-            <div className="md:max-w-2xl text-center">
+          {/* <div className="absolute inset-0 w-[100%]  bg-black opacity-50"></div> */}
+            <div className="md:max-w-2xl z-10 text-center">
               <h2 className=" text-2xl sm:text-4xl md:text-5xl lg:text-3x1 font-serif text-white mb-8">
                 Innovations for a Sustainable Future
               </h2>
@@ -158,8 +162,11 @@ export default function Hero() {
             loading="lazy"
             alt="Adding Value Across Sectors"
           />
-          <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
-            <div className="md:max-w-2xl text-center">
+          <div className="relative  container mx-auto px-4 h-full w-screen flex items-center justify-center">
+            
+          {/* <div className="absolute inset-0 w-[100%]  bg-black opacity-50"></div> */}
+
+            <div className="md:max-w-2xl w-screen z-10 text-center">
               <h1 className=" text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">
                 Adding Value Across Sectors
               </h1>

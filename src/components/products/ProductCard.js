@@ -11,7 +11,7 @@ const PlantCard = ({
       <div className="w-16 h-16  rounded-full bg-[#6cb33f] flex items-center justify-center mb-4">
         {icon}
       </div>
-      <h3 className="text-lg mb-4">{title}</h3>
+      <div className="text-md font-bold mb-4 ">{title}</div>
     </div>
     
     <div className="px-6 k h-full pb-6">
@@ -87,7 +87,7 @@ const TreatmentPlants = () => {
         <PlantCard
           icon={<EffluentIcon />}
           title="Boiler Treatment Chemicals"
-          productPage="/products/Boiler" // Hardcoded link for the product page
+          productPage="/products/boiler" // Hardcoded link for the product page
           
         />
         <PlantCard

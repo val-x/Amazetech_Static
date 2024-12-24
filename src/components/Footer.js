@@ -19,7 +19,7 @@ export default function Footer() {
         </h2>
 
         {/* Footer Grid */}
-        <div className="bg-white p-10 rounded-xl">
+        <div className="bg-white p-3 md:p-10 rounded-xl">
         <div className="grid md:grid-cols-4  gap-12 mb-12">
           {/* Company Info */}
           <div>
