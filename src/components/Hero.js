@@ -61,7 +61,7 @@ export default function Hero() {
             src={Water}
             alt="Water Services"
             loading="lazy"
-            className="absolute h-full md:h-screen w-[100%] "
+            className="absolute h-full md:h-screen w-[100%] object-cover"
           />
           <div className="relative  container mx-auto px-4 h-full flex items-center justify-center">
             <div className="md:max-w-2xl text-center ">
@@ -93,7 +93,7 @@ export default function Hero() {
             src={Refreshing_the_planet}
             alt="Refreshing_the_planet"
             loading="lazy"
-            className="absolute h-full md:h-screen w-[100%] "
+            className="absolute h-full md:h-screen w-[100%] object-cover"
           />
           <div className="relative   container mx-auto px-4 h-full flex items-center justify-center">
             <div className=" md:max-w-2xl text-center">
@@ -127,7 +127,7 @@ export default function Hero() {
         <SwiperSlide>
           <img
             src={Innovations}
-            className="absolute h-full md:h-screen w-[100%] "
+            className="absolute h-full md:h-screen w-[100%] object-cover"
             loading="lazy"
             alt="Innovations for a Sustainable Future "
           />
@@ -158,7 +158,7 @@ export default function Hero() {
         <SwiperSlide>
           <img
             src={Adding_value_accross_sectors}
-            className="absolute h-full md:h-screen w-[100%] "
+            className="absolute h-full md:h-screen w-[100%] object-cover"
             loading="lazy"
             alt="Adding Value Across Sectors"
           />
@@ -191,7 +191,7 @@ export default function Hero() {
         <SwiperSlide>
           <img
             src={water_services}
-            className="absolute h-full md:h-screen w-[100%] "
+            className="absolute h-full md:h-screen w-[100%] object-cover"
             loading="lazy"
             alt="24 X 7 SERVICES"
           />
