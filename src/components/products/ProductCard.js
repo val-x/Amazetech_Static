@@ -99,37 +99,37 @@ const TreatmentPlants = () => {
         <PlantCard
           icon={<OilIcon />}
           title="Chiller Treatment Chemicals"
-          productPage="/products/Chiller" // Hardcoded link for the product page
+          productPage="/products/chillerTreatment" // Updated to match data structure key
         />
          <PlantCard
           icon={<OilIcon />}
           title="RO Treatment Chemicals"
-          productPage="/products/RO" // Hardcoded link for the product page
+          productPage="/products/roTreatment" // Updated to match data structure key
         />
          <PlantCard
           icon={<OilIcon />}
           title="Defoamers"
-          productPage="/products/Defoamers" // Hardcoded link for the product page
+          productPage="/products/defoamers" // Updated to match data structure key
         />
          <PlantCard
           icon={<OilIcon />}
           title="Paper & Sugar Processing Chemicals"
-          productPage="/products/Paper" // Hardcoded link for the product page
+          productPage="/products/paperAndSugar" // Updated to match data structure key
         />
          <PlantCard
           icon={<OilIcon />}
           title="Mining & Construction Water Treatment Chemicals"
-          productPage="/products/Mining" // Hardcoded link for the product page
+          productPage="/products/miningConstruction" // Updated to match data structure key
         />
          <PlantCard
           icon={<OilIcon />}
           title="ETP Treatment Chemicals"
-          productPage="/products/ETP" // Hardcoded link for the product page
+          productPage="/products/etpTreatment" // Updated to match data structure key
         />
          <PlantCard
           icon={<OilIcon />}
           title="STP Treatment Chemicals"
-          productPage="/products/STP" // Hardcoded link for the product page
+          productPage="/products/stpTreatment" // Updated to match data structure key
         />
       </div>
     </div>
