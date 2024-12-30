@@ -101,7 +101,7 @@ export default function Plants() {
           >
             {slides.map((slide, index) => (
               <div key={index} style={{ padding: "50px 20px" }}>
-                <div className="box object-cover">
+                <div className="box">
                   <img
                     src={slide.url}
                     alt={slide.alt}
