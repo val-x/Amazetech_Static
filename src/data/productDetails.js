@@ -1,22 +1,22 @@
 export const productDetails = {
   boilerTreatment: {
     title: "Boiler Treatment Chemicals",
-    image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=1470",
-    heroImage: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=1470",
-    secondaryImage: "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=1470",
-    ctaImage: "https://images.unsplash.com/photo-1581092162384-8987c1d64926?w=1470",
+    image: "https://plus.unsplash.com/premium_photo-1682144426302-635f3bc67046?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    heroImage: "https://plus.unsplash.com/premium_photo-1682144426302-635f3bc67046?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImage: "https://media.istockphoto.com/id/1452166359/photo/a-female-engineer-works-in-a-chemical-plant-using-a-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=IqyTSaWA6yW28etmlwrcqKMpe6BjfxULdp9ScRUuE68=",
+    ctaImage: "https://media.istockphoto.com/id/1452166359/photo/a-female-engineer-works-in-a-chemical-plant-using-a-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=IqyTSaWA6yW28etmlwrcqKMpe6BjfxULdp9ScRUuE68=",
     galleryImages: [
-      "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=800",
-      "https://images.unsplash.com/photo-1581092162384-8987c1d64926?w=800",
-      "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800",
-      "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=800"
+      "https://media.istockphoto.com/id/1452166359/photo/a-female-engineer-works-in-a-chemical-plant-using-a-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=IqyTSaWA6yW28etmlwrcqKMpe6BjfxULdp9ScRUuE68=",
+      "https://media.istockphoto.com/id/1452166359/photo/a-female-engineer-works-in-a-chemical-plant-using-a-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=IqyTSaWA6yW28etmlwrcqKMpe6BjfxULdp9ScRUuE68=",
+      "https://media.istockphoto.com/id/1452166359/photo/a-female-engineer-works-in-a-chemical-plant-using-a-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=IqyTSaWA6yW28etmlwrcqKMpe6BjfxULdp9ScRUuE68=",
+      "https://media.istockphoto.com/id/1452166359/photo/a-female-engineer-works-in-a-chemical-plant-using-a-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=IqyTSaWA6yW28etmlwrcqKMpe6BjfxULdp9ScRUuE68=",
     ],
     processImages: {
       analysis: "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?w=800",
       treatment: "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=800",
       monitoring: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800"
     },
-    description: "At Amezoltech India Private Limited, we provide a comprehensive range of boiler water treatment chemicals for low, medium, and high-pressure boilers, including power plant boilers. Our solutions are designed to optimize boiler performance, prevent corrosion, and enhance energy efficiency.",
+    description: "At Amazetech Corporation India Private Limited, we provide a comprehensive range of boiler water treatment chemicals for low, medium, and high-pressure boilers, including power plant boilers. Our solutions are designed to optimize boiler performance, prevent corrosion, and enhance energy efficiency.",
     overview: [
       "Our boiler treatment chemicals are formulated using cutting-edge technology and premium quality raw materials to ensure optimal performance and reliability.",
       "We understand that each boiler system is unique, which is why we offer customized solutions tailored to your specific requirements and operating conditions.",

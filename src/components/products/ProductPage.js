@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { productDetails } from '../data/productDetails';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import { productDetails } from '../../data/productDetails';
+import Header from '../Header';
+import Footer from '../Footer';
 
 export default function ProductPage() {
   const { productId } = useParams();
@@ -207,7 +207,7 @@ export default function ProductPage() {
         </section>
 
         {/* Technical Specifications */}
-        {product.specifications && (
+        {/* {product.specifications && (
           <section className="mb-24">
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
               Technical Specifications
@@ -223,7 +223,7 @@ export default function ProductPage() {
               </div>
             </div>
           </section>
-        )}
+        )} */}
 
         {/* Applications Section */}
         {product.applications && (
