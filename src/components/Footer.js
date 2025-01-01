@@ -73,6 +73,12 @@ export default function Footer() {
                   Services
                 </Link>
                 <Link
+                  to="/Quality"
+                  className="text-gray-600 hover:text-[#90C418] block text-sm sm:text-base"
+                >
+                  Quality
+                </Link>
+                <Link
                   to="/contact"
                   className="text-gray-600 hover:text-[#90C418] block text-sm sm:text-base"
                 >

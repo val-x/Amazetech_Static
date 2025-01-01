@@ -32,7 +32,7 @@ const AppWithConditionalButton = () => {
         <Route path="*" element={<NotFoundPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Services />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/Quality" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
 
         {/* Updated Product Routes */}

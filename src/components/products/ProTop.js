@@ -1,5 +1,5 @@
 import React from 'react'
-import DD from '../../assest/3d.jpg'
+import Products from '../../assest/Products.png'
 
 export default function ProTop() {
     return (
@@ -11,7 +11,7 @@ export default function ProTop() {
             </div>
             
             <div className="h-full w-full flex items-center justify-center">
-            <img src={DD} alt="3D" className="h-full w-[100%]  md:w-[50%]" loading="lazy"></img>
+            <img src={Products} alt="Products" className="h-full w-[100%] object-contain md:w-[50%]" loading="lazy"></img>
             </div>
           </div>
   
