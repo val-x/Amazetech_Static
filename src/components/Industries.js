@@ -1,7 +1,6 @@
 import React from "react";
 import { ArrowRight, Lightbulb, Activity } from "lucide-react";
 import { Link } from "react-router-dom";
-import Wind from "../assest/wind.png";
 
 export default function Industries() {
   return (
@@ -15,7 +14,7 @@ export default function Industries() {
                 <div className="h-[70px]  rounded-2xl"></div>
                 <div className="h-[320px] bg-black mt-3 rounded-2xl">
                   <img
-                    src={Wind}
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzo2XCX3EO339R_rvJmCFqY11l4gDmfjT1ImSyNqRsGxxT8tEw40ZYyrazXzI5OH3Y_NA&usqp=CAU"
                     alt="Advanced water treatment facility by Amazetech Corporation"
                     className="w-full h-full bg-yellow-200 object-cover rounded-2xl"
                      loading="lazy"
@@ -25,7 +24,7 @@ export default function Industries() {
               <div className="">
                 <div className="h-[290px] bg-black rounded-2xl">
                   <img
-                    src={Wind}
+                    src="https://cdn.pixabay.com/photo/2017/10/07/16/27/treatment-plant-wastewater-2826990_1280.jpg"
                     alt="Advanced water treatment facility by Amazetech Corporation"
                     className="w-full h-full bg-yellow-200 object-cover rounded-2xl"
                      loading="lazy"
@@ -33,7 +32,7 @@ export default function Industries() {
                 </div>
                 <div className="h-[100px] w-[90%] bg-black mt-3 rounded-2xl">
                   <img
-                    src={Wind}
+                    src="https://www.shrijee.com/images/turnkey-sugar-solutions/content/sugar_abt_01.jpg"
                     alt="Advanced water treatment facility by Amazetech Corporation"
                     className="w-full h-full bg-yellow-200 object-cover rounded-2xl"
                      loading="lazy"

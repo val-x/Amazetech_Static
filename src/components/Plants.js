@@ -11,7 +11,7 @@ export default function Plants() {
       alt: "State-of-the-art water treatment facility by Amazetech Corporation",
     },
     {
-      url: "https://www.kelvinindia.in/blog/wp-content/uploads/2024/09/industrial-waste-waer-treatment-plant.jpg",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLYtRswrHehwkX5sfVO1LwFA9CmkEKIg-GPg&s",
       alt: "Industrial wastewater treatment plant designed for efficiency",
     },
     {
@@ -19,11 +19,11 @@ export default function Plants() {
       alt: "Chemical research laboratory for advanced water solutions",
     },
     {
-      url: "https://images.pexels.com/photos/8113567/pexels-photo-8113567.jpeg",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAy5NIH1hI8Ncq2IzLxSGz9NltnuvUQ6difg&s",
       alt: "Eco-friendly industrial water treatment facility",
     },
     {
-      url: "https://images.pexels.com/photos/209230/pexels-photo-209230.jpeg",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIKIb0_GuZNn5R6x7LGx4AKnZH2-YQyNgfkw&s",
       alt: "Modern chemical production plant for sustainable water management",
     },
   ];

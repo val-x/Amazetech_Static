@@ -1,7 +1,6 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import Wind from "../../assest/wind.png";
 
 export default function Industries() {
   return (
@@ -15,7 +14,7 @@ export default function Industries() {
                 <div className="h-[70px] rounded-2xl"></div>
                 <div className="h-[320px] bg-black mt-3 rounded-2xl">
                   <img
-                    src={Wind}
+                    src="https://cdn.pixabay.com/photo/2019/07/14/13/53/sewage-plant-4337156_1280.jpg"
                     alt="Industrial water treatment innovation - Amazetech Corporation"
                     className="w-full h-full bg-yellow-200 object-cover rounded-2xl"
                     loading="lazy"
@@ -25,7 +24,7 @@ export default function Industries() {
               <div>
                 <div className="h-[290px] bg-black rounded-2xl">
                   <img
-                    src={Wind}
+                    src="https://www.cannonartes.com/wp-content/uploads/2022/07/Effluent-Treatment-New-Caledonia_1443x1141px-scaled.jpg"
                     alt="Cutting-edge chemical solutions for industries"
                     loading="lazy"
                     className="w-full h-full bg-yellow-200 object-cover rounded-2xl"
@@ -33,7 +32,7 @@ export default function Industries() {
                 </div>
                 <div className="h-[100px] w-[90%] bg-black mt-3 rounded-2xl">
                   <img
-                    src={Wind}
+                    src="https://www.gastglobal.com/wp-content/uploads/2020/10/Water-consulting-1024x683.jpg"
                     alt="Efficient water management technologies"
                     loading="lazy"
                     className="w-full h-full bg-yellow-200 object-cover rounded-2xl"
