@@ -1,5 +1,5 @@
 import React from "react";
-import DD from "../../assest/3d.jpg";
+import About from "../../assest/About.jpg";
 
 export default function Top() {
   return (
@@ -13,7 +13,7 @@ export default function Top() {
         <img src={DD} alt="3D" className="h-full w-[100%] md:w-[70%]" loading="lazy"></img>
       </div> */}
       <div className="h-full w-full flex items-center justify-center">
-      <img src={DD} alt="3D" className="h-full w-[100%]  md:w-[50%]" loading="lazy"></img>
+      <img src={About} alt="About" className="h-full w-[100%] object-contain md:w-[50%]" loading="lazy"></img>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
-import LOGO from '../assest/logo.jpg'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { Menu, X } from "lucide-react";
+import LOGO from "../assest/logo.jpg";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,28 +11,40 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="text-xl font-bold text-white">
-            <img src={LOGO}
-             className='h-10 w-15'
-            alt='Amazetech Cor'
-            />
+            <img src={LOGO} className="h-10 w-15" alt="Amazetech Cor" />
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">
-            <Link to="/" className="text-sm font-medium hover:text-green-600 text-white">
+            <Link
+              to="/"
+              className="text-sm font-medium hover:text-green-600 text-white"
+            >
               Home
             </Link>
-            <Link to="/about" className="text-sm font-medium hover:text-green-600 text-white">
+            <Link
+              to="/about"
+              className="text-sm font-medium hover:text-green-600 text-white"
+            >
               About
             </Link>
-            <Link to="/product" className="text-sm font-medium hover:text-green-600 text-white">
+            <Link
+              to="/product"
+              className="text-sm font-medium hover:text-green-600 text-white"
+            >
               Product
             </Link>
-            <Link to="/service" className="text-sm font-medium hover:text-green-600 text-white">
+            <Link
+              to="/service"
+              className="text-sm font-medium hover:text-green-600 text-white"
+            >
               Service
             </Link>
-            <Link to="/gallery" className="text-sm font-medium hover:text-green-600 text-white">
-              Gallery
+            <Link
+              to="/Quality"
+              className="text-sm font-medium hover:text-green-600 text-white"
+            >
+              Quality
             </Link>
             <Link
               to="/contact"
@@ -43,8 +55,15 @@ export default function Header() {
           </nav>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          <button
+            className="md:hidden"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            {isMenuOpen ? (
+              <X className="h-6 w-6" />
+            ) : (
+              <Menu className="h-6 w-6" />
+            )}
           </button>
         </div>
       </div>
@@ -56,16 +75,28 @@ export default function Header() {
             <Link to="/" className="text-sm font-medium hover:text-green-600">
               Home
             </Link>
-            <Link to="/about" className="text-sm font-medium hover:text-green-600">
+            <Link
+              to="/about"
+              className="text-sm font-medium hover:text-green-600"
+            >
               About
             </Link>
-            <Link to="/product" className="text-sm font-medium hover:text-green-600">
+            <Link
+              to="/product"
+              className="text-sm font-medium hover:text-green-600"
+            >
               Product
             </Link>
-            <Link to="/service" className="text-sm font-medium hover:text-green-600">
+            <Link
+              to="/service"
+              className="text-sm font-medium hover:text-green-600"
+            >
               Service
             </Link>
-            <Link to="/gallery" className="text-sm font-medium hover:text-green-600">
+            <Link
+              to="/gallery"
+              className="text-sm font-medium hover:text-green-600"
+            >
               Gallery
             </Link>
             <Link
