@@ -1,16 +1,21 @@
-import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import SerTop from '../components/service/SerTop'
-import SerContent from '../components/service/SerContent'
+import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import ServiceHero from '../components/service/ServiceHero';
+import ServiceGrid from '../components/service/ServiceGrid';
+import ServiceDetails from '../components/service/ServiceDetails';
 
-export default function Service () {
+
+const Service = () => {
   return (
     <main className="min-h-screen">
-            <Header />
-            <SerTop/>
-            <SerContent/>
-            <Footer />
-        </main>
-  )
-}
+      <Header />
+      <ServiceHero />
+      <ServiceGrid />
+      <ServiceDetails />
+      <Footer />
+    </main>
+  );
+};
+
+export default Service;
