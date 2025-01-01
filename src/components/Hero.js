@@ -126,7 +126,7 @@ export default function Hero() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src={Innovations}
+            src="https://static.vecteezy.com/system/resources/thumbnails/046/122/885/small_2x/light-bulb-on-a-blue-background-concept-of-innovation-bright-ideas-creativity-electrical-energy-copy-space-photo.jpeg"
             className="absolute h-full md:h-screen w-[100%] object-cover"
             loading="lazy"
             alt="Innovations for a Sustainable Future "
@@ -157,7 +157,7 @@ export default function Hero() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src={Adding_value_accross_sectors}
+            src="https://media.istockphoto.com/id/1344940351/photo/businessman-holding-virtual-download-icon-progress-for-increasing-value-added-to-business.jpg?s=612x612&w=0&k=20&c=3CtGtINFVGKyRhbVlrG5rQKJq_FvPicsg3FmgDsL1_M="
             className="absolute h-full md:h-screen w-[100%] object-cover"
             loading="lazy"
             alt="Adding Value Across Sectors"

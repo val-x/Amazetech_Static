@@ -2,8 +2,8 @@ export const productDetails = {
   boilerTreatment: {
     title: "Boiler Treatment Chemicals",
     image: "https://plus.unsplash.com/premium_photo-1682144426302-635f3bc67046?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    heroImage: "https://plus.unsplash.com/premium_photo-1682144426302-635f3bc67046?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    secondaryImage: "https://media.istockphoto.com/id/1452166359/photo/a-female-engineer-works-in-a-chemical-plant-using-a-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=IqyTSaWA6yW28etmlwrcqKMpe6BjfxULdp9ScRUuE68=",
+    heroImage: "https://sms-environmental.co.uk/media/xs4datz1/industrial-boiler.png?mode=pad&width=2000",
+    secondaryImage: "https://cdn.pixabay.com/photo/2016/04/25/13/52/bulgaria-1351947_1280.jpg",
     ctaImage: "https://media.istockphoto.com/id/1452166359/photo/a-female-engineer-works-in-a-chemical-plant-using-a-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=IqyTSaWA6yW28etmlwrcqKMpe6BjfxULdp9ScRUuE68=",
     galleryImages: [
       "https://media.istockphoto.com/id/1452166359/photo/a-female-engineer-works-in-a-chemical-plant-using-a-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=IqyTSaWA6yW28etmlwrcqKMpe6BjfxULdp9ScRUuE68=",
@@ -135,9 +135,9 @@ export const productDetails = {
   },
   coolingTower: {
     title: "Cooling Tower Treatment Chemicals",
-    image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1470",
-    heroImage: "https://images.unsplash.com/photo-1623210828652-c4fa8b29d9a7?w=1470",
-    secondaryImage: "https://images.unsplash.com/photo-1623210828652-c4fa8b29d9a7?w=1470",
+    image: "https://images.pexels.com/photos/29155807/pexels-photo-29155807/free-photo-of-cooling-tower-emitting-steam-at-power-plant.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    heroImage: "https://images.pexels.com/photos/459728/pexels-photo-459728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    secondaryImage: "https://www.bvwater.co.uk/hubfs/corrosion_inhibitors.jpeg",
     ctaImage: "https://images.unsplash.com/photo-1623210828652-c4fa8b29d9a7?w=1470",
     galleryImages: [
       "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=800",
@@ -264,9 +264,9 @@ export const productDetails = {
   },
   chillerTreatment: {
     title: "Chiller Treatment Chemicals",
-    image: "https://images.unsplash.com/photo-1617781377265-e5e085099499?w=1470",
-    heroImage: "https://images.unsplash.com/photo-1617781377265-e5e085099499?w=1470",
-    secondaryImage: "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=1470",
+    image: "https://obliqueaqua.com/wp-content/uploads/2023/08/Chemical-treatment-for.jpg",
+    heroImage: "https://www.socool.sg/wp-content/uploads/2024/06/Chilled-Water-Systems.jpg.webp",
+    secondaryImage: "https://thumbs.dreamstime.com/b/water-cooling-tower-air-chiller-hvac-large-industrial-building-air-conditioner-water-cooling-tower-air-chiller-hvac-127724617.jpg",
     ctaImage: "https://images.unsplash.com/photo-1581092162384-8987c1d64926?w=1470",
     galleryImages: [
       "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=800",
@@ -390,10 +390,10 @@ export const productDetails = {
     ]
   },
   roTreatment: {
-    title: "RO Treatment Chemicals",
-    image: "https://images.unsplash.com/photo-1519995451813-39e29e054914?w=1470",
-    heroImage: "https://images.unsplash.com/photo-1519995451813-39e29e054914?w=1470",
-    secondaryImage: "https://images.unsplash.com/photo-1519995451813-39e29e054914?w=1470",
+    title: "Reverse Osmosis Treatment Chemicals",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBybRIs2OP15MFzT31H0npRisatj44vEVI_g&s",
+    heroImage: "https://www.rossari.com/wp-content/uploads/2020/01/RO-Chemical.jpeg",
+    secondaryImage: "https://www.amezoltech.com/wp-content/uploads/2024/10/ro-image-new-1.jpg",
     ctaImage: "https://images.unsplash.com/photo-1519995451813-39e29e054914?w=1470",
     galleryImages: [
       "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=800",
@@ -520,9 +520,9 @@ export const productDetails = {
   },
   defoamers: {
     title: "Defoamers",
-    image: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=1470",
-    heroImage: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=1470",
-    secondaryImage: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=1470",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyVdzxPH-Ib9p5q8DIynWGEJ-683FIGCEPDA&s",
+    heroImage: "https://static.wixstatic.com/media/8380d5_3c0ba93de5ac457dbfea4dcf81cf31b0~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/8380d5_3c0ba93de5ac457dbfea4dcf81cf31b0~mv2.jpg",
+    secondaryImage: "https://www.amezoltech.com/wp-content/uploads/2024/09/upgrade.png",
     ctaImage: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=1470",
     galleryImages: [
       "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=800",
@@ -647,9 +647,9 @@ export const productDetails = {
   },
   paperAndSugar: {
     title: "Paper & Sugar Processing Chemicals",
-    image: "https://images.unsplash.com/photo-1574672280600-4accfa5b6f98?w=1470",
-    heroImage: "https://images.unsplash.com/photo-1574672280600-4accfa5b6f98?w=1470",
-    secondaryImage: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=1470",
+    image: "https://plus.unsplash.com/premium_photo-1661920615655-cf7c362a5109?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    heroImage: "https://5.imimg.com/data5/SELLER/Default/2020/10/ZD/CL/II/39896959/paper-process-chemicals-500x500.jpg",
+    secondaryImage: "https://media.istockphoto.com/id/1174905233/photo/reversing-falls-saint-john-new-brunswick-canada.jpg?s=612x612&w=0&k=20&c=Y_ayeXrxBOG0Jzv8ZxQkQUxn_hU8jQtQZSyenqegDCc=",
     ctaImage: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=1470",
     galleryImages: [
       "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=800",
@@ -779,9 +779,9 @@ export const productDetails = {
   },
   miningConstruction: {
     title: "Mining & Construction Water Treatment",
-    image: "https://images.unsplash.com/photo-1578319439584-104c94d37305?w=1470",
-    heroImage: "https://images.unsplash.com/photo-1578319439584-104c94d37305?w=1470",
-    secondaryImage: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1470",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrNdk8dX4V6SWUlDMNP0OiNrRRTyPS59qTg&s",
+    heroImage: "https://www.veoliawatertech.com/sites/g/files/dvc3601/files/styles/default/public/image/2020/05/LAN_057_retouched-small.jpg?itok=c6pffiMf",
+    secondaryImage: "https://chunkewatertreatment.com/wp-content/uploads/2024/07/water-treatment-for-mining-1024x585.png",
     ctaImage: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1470",
     galleryImages: [
       "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=800",
@@ -911,9 +911,9 @@ export const productDetails = {
   },
   etpTreatment: {
     title: "ETP Treatment Chemicals",
-    image: "https://images.unsplash.com/photo-1565726166189-e9814a05ffde?w=1470",
-    heroImage: "https://images.unsplash.com/photo-1565726166189-e9814a05ffde?w=1470",
-    secondaryImage: "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=1470",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzaFSh3lvlVTOcgqf9vgZjjNyBFcvDiKcEHQ&s",
+    heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt2e43hh71uVELbe4XGzMZKf9w9zxNBgrVng&s",
+    secondaryImage: "https://cdn.pixabay.com/photo/2017/10/07/16/27/treatment-plant-wastewater-2826990_960_720.jpg",
     ctaImage: "https://images.unsplash.com/photo-1581092162384-8987c1d64926?w=1470",
     galleryImages: [
       "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=800",
@@ -1040,9 +1040,9 @@ export const productDetails = {
   },
   stpTreatment: {
     title: "STP Treatment Chemicals",
-    image: "https://images.unsplash.com/photo-1573689705342-ea8e465a2f91?w=1470",
-    heroImage: "https://images.unsplash.com/photo-1573689705342-ea8e465a2f91?w=1470",
-    secondaryImage: "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=1470",
+    image: "https://www.hindustantimes.com/ht-img/img/2023/06/11/1600x900/DPCC-gathers-monthly-water-samples-from-both-the-i_1686508594502.jpg",
+    heroImage: "https://journalsofindia.com/wp-content/uploads/2022/04/Okhla-Sewage-Treatment-Plant-1.jpg",
+    secondaryImage: "https://www.biologicalwasteexpert.com/uploads/2/6/3/4/26349909/header_images/1729093124.jpg",
     ctaImage: "https://images.unsplash.com/photo-1581092162384-8987c1d64926?w=1470",
     galleryImages: [
       "https://images.unsplash.com/photo-1581092160607-ee67df9c7ccb?w=800",

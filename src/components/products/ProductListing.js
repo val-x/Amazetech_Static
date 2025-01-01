@@ -103,6 +103,7 @@ export default function ProductListing() {
                 <img
                   src={product.image}
                   alt={product.title}
+                  loading='lazy'
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
