@@ -2,8 +2,8 @@ export const productDetails = {
   boilerTreatment: {
     title: "Boiler Treatment Chemicals",
     image: "https://plus.unsplash.com/premium_photo-1682144426302-635f3bc67046?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    heroImage: "https://plus.unsplash.com/premium_photo-1682144426302-635f3bc67046?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    secondaryImage: "https://media.istockphoto.com/id/1452166359/photo/a-female-engineer-works-in-a-chemical-plant-using-a-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=IqyTSaWA6yW28etmlwrcqKMpe6BjfxULdp9ScRUuE68=",
+    heroImage: "https://sms-environmental.co.uk/media/xs4datz1/industrial-boiler.png?mode=pad&width=2000",
+    secondaryImage: "https://www.veoliawatertechnologies.ie/sites/g/files/dvc3326/files/styles/crop_freeform/public/image/2021/12/Hydrex1000-SERIE-1000---BOILER.jpg---0-%282%29.jpg?itok=Y_P_u26y",
     ctaImage: "https://media.istockphoto.com/id/1452166359/photo/a-female-engineer-works-in-a-chemical-plant-using-a-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=IqyTSaWA6yW28etmlwrcqKMpe6BjfxULdp9ScRUuE68=",
     galleryImages: [
       "https://media.istockphoto.com/id/1452166359/photo/a-female-engineer-works-in-a-chemical-plant-using-a-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=IqyTSaWA6yW28etmlwrcqKMpe6BjfxULdp9ScRUuE68=",
