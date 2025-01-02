@@ -7,11 +7,11 @@ import { Helmet } from "react-helmet";
 export default function Plants() {
   const slides = [
     {
-      url: "https://www.kelvinindia.in/blog/wp-content/uploads/2024/07/water-treatment-plant.jpg",
+      url: "https://plus.unsplash.com/premium_photo-1733266883899-29971ddbe5e3?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       alt: "State-of-the-art water treatment facility by Amazetech Corporation",
     },
     {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLYtRswrHehwkX5sfVO1LwFA9CmkEKIg-GPg&s",
+      url: "https://plus.unsplash.com/premium_photo-1694475446818-b0e07dbff684?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       alt: "Industrial wastewater treatment plant designed for efficiency",
     },
     {
@@ -19,12 +19,16 @@ export default function Plants() {
       alt: "Chemical research laboratory for advanced water solutions",
     },
     {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAy5NIH1hI8Ncq2IzLxSGz9NltnuvUQ6difg&s",
+      url: "https://cdn.pixabay.com/photo/2016/04/24/19/29/spain-1350442_960_720.jpg",
       alt: "Eco-friendly industrial water treatment facility",
     },
     {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIKIb0_GuZNn5R6x7LGx4AKnZH2-YQyNgfkw&s",
+      url: "https://plus.unsplash.com/premium_photo-1682144326897-4a7149b991f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       alt: "Modern chemical production plant for sustainable water management",
+    },
+    {
+      url: "https://cdn.pixabay.com/photo/2015/09/28/14/17/industry-962149_960_720.jpg",
+      alt: "Effluent and Sewage treatement plants",
     },
   ];
 
@@ -101,7 +105,7 @@ export default function Plants() {
           >
             {slides.map((slide, index) => (
               <div key={index} style={{ padding: "50px 20px" }}>
-                <div className="box">
+                <div className="box object-contain overflow-hidden">
                   <img
                     src={slide.url}
                     alt={slide.alt}

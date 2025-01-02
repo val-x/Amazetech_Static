@@ -19,9 +19,7 @@ import {
   Gauge,
 } from "lucide-react";
 import Water from "../../assest/water.jpg";
-import Innovations from "../../assest/Innovations.jpg";
 import Refreshing_the_planet from "../../assest/Refreshing_the_planet.jpg";
-import Adding_value_accross_sectors from "../../assest/Adding_value_accross_sectors.png";
 import wastewater_consultancy from "../../assest/wastewater_consultancy.jpg";
 import water_lab_testing from "../../assest/water_lab_testing.jpg";
 import water_services from "../../assest/water_services.jpg";
@@ -111,11 +109,15 @@ const GalleryAndQuality = () => {
       title: "Environmental Solutions",
     },
     {
-      src: Adding_value_accross_sectors,
+      src: "https://cdn.pixabay.com/photo/2018/11/24/19/25/chemist-3836150_1280.jpg",
       alt: "Adding value across sectors",
       title: "Cross-Sector Solutions",
     },
-    { src: Innovations, alt: "Innovations", title: "Innovative Technologies" },
+    {
+      src: "https://images.unsplash.com/photo-1622322977885-8ee6d45ea016?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      alt: "Innovations",
+      title: "Innovative Technologies",
+    },
     {
       src: water_services,
       alt: "Water Services",
