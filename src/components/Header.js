@@ -97,7 +97,7 @@ export default function Header() {
               to="/Quality"
               className="text-sm font-medium hover:text-green-600"
             >
-              Gallery
+              Quality
             </Link>
             <Link
               to="/contact"
