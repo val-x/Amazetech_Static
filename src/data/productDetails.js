@@ -135,7 +135,7 @@ export const productDetails = {
   },
   coolingTower: {
     title: "Cooling Tower Treatment Chemicals",
-    image: "https://images.pexels.com/photos/29155807/pexels-photo-29155807/free-photo-of-cooling-tower-emitting-steam-at-power-plant.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://plus.unsplash.com/premium_photo-1661898205432-d648667b9c76?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     heroImage: "https://images.pexels.com/photos/459728/pexels-photo-459728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     secondaryImage: "https://www.bvwater.co.uk/hubfs/corrosion_inhibitors.jpeg",
     ctaImage: "https://images.unsplash.com/photo-1623210828652-c4fa8b29d9a7?w=1470",
@@ -391,7 +391,7 @@ export const productDetails = {
   },
   roTreatment: {
     title: "Reverse Osmosis Treatment Chemicals",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBybRIs2OP15MFzT31H0npRisatj44vEVI_g&s",
+    image: "https://plus.unsplash.com/premium_photo-1661899579134-0457cd1c4fb5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     heroImage: "https://www.rossari.com/wp-content/uploads/2020/01/RO-Chemical.jpeg",
     secondaryImage: "https://www.amezoltech.com/wp-content/uploads/2024/10/ro-image-new-1.jpg",
     ctaImage: "https://images.unsplash.com/photo-1519995451813-39e29e054914?w=1470",
@@ -520,8 +520,8 @@ export const productDetails = {
   },
   defoamers: {
     title: "Defoamers",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyVdzxPH-Ib9p5q8DIynWGEJ-683FIGCEPDA&s",
-    heroImage: "https://static.wixstatic.com/media/8380d5_3c0ba93de5ac457dbfea4dcf81cf31b0~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/8380d5_3c0ba93de5ac457dbfea4dcf81cf31b0~mv2.jpg",
+    image: "https://images.unsplash.com/photo-1622322977885-8ee6d45ea016?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    heroImage: "https://images.unsplash.com/photo-1622322977879-af6982dcba00?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     secondaryImage: "https://www.amezoltech.com/wp-content/uploads/2024/09/upgrade.png",
     ctaImage: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=1470",
     galleryImages: [
@@ -779,7 +779,7 @@ export const productDetails = {
   },
   miningConstruction: {
     title: "Mining & Construction Water Treatment",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrNdk8dX4V6SWUlDMNP0OiNrRRTyPS59qTg&s",
+    image: "https://cdn.pixabay.com/photo/2015/08/15/15/31/hamburg-889657_1280.jpg",
     heroImage: "https://www.veoliawatertech.com/sites/g/files/dvc3601/files/styles/default/public/image/2020/05/LAN_057_retouched-small.jpg?itok=c6pffiMf",
     secondaryImage: "https://chunkewatertreatment.com/wp-content/uploads/2024/07/water-treatment-for-mining-1024x585.png",
     ctaImage: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1470",
@@ -911,7 +911,7 @@ export const productDetails = {
   },
   etpTreatment: {
     title: "ETP Treatment Chemicals",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzaFSh3lvlVTOcgqf9vgZjjNyBFcvDiKcEHQ&s",
+    image: "https://static.wixstatic.com/media/8380d5_3c0ba93de5ac457dbfea4dcf81cf31b0~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/8380d5_3c0ba93de5ac457dbfea4dcf81cf31b0~mv2.jpg",
     heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt2e43hh71uVELbe4XGzMZKf9w9zxNBgrVng&s",
     secondaryImage: "https://cdn.pixabay.com/photo/2017/10/07/16/27/treatment-plant-wastewater-2826990_960_720.jpg",
     ctaImage: "https://images.unsplash.com/photo-1581092162384-8987c1d64926?w=1470",

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import LOGO from "../assest/logo.jpg";
+import AT_LOGO from "../assest/AT_LOGO.webp";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +11,7 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="text-xl font-bold text-white">
-            <img src={LOGO} className="h-10 w-15" alt="Amazetech Cor" />
+            <img src={AT_LOGO} className="h-10 w-15" alt="Amazetech Corporation" loading="lazy" />
           </Link>
 
           {/* Desktop Navigation */}
