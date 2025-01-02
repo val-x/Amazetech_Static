@@ -94,7 +94,7 @@ export default function Header() {
               Service
             </Link>
             <Link
-              to="/gallery"
+              to="/Quality"
               className="text-sm font-medium hover:text-green-600"
             >
               Gallery
