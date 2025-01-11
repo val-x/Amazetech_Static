@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Innovative_Water_Treatment from "../assest/water.jpg";
 import Refreshing_the_planet from "../assest/Refreshing_the_planet.jpg";
 import Innovations from "../assest/Innovations.jpg";
+import water_services from "../assest/water_services.jpg";
 import { Helmet } from "react-helmet";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -59,7 +60,8 @@ export default function Hero() {
         <SwiperSlide>
         <div className="absolute inset-0">
             <img
-              src={Innovative_Water_Treatment}
+              // src={Innovative_Water_Treatment}
+              src="https://cdn.pixabay.com/photo/2013/11/06/12/50/wurzburg-206414_1280.jpg"
               alt="Water Services"
               loading="lazy"
               className="h-full w-full object-cover"
@@ -92,7 +94,8 @@ export default function Hero() {
         <SwiperSlide>
         <div className="absolute inset-0">
             <img
-              src={Refreshing_the_planet}
+              // src={Refreshing_the_planet}
+              src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="Refreshing the planet"
               loading="lazy"
               className="h-full w-full object-cover"
@@ -198,7 +201,8 @@ export default function Hero() {
         <SwiperSlide>
         <div className="absolute inset-0">
             <img
-              src="https://cdn.pixabay.com/photo/2013/11/06/12/50/wurzburg-206414_1280.jpg"
+              src="https://plus.unsplash.com/premium_photo-1682146808800-52be0b2f5fa5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              // src={water_services}
               alt="24/7 Services"
               loading="lazy"
               className="h-full w-full object-cover overflow-hidden"

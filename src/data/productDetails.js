@@ -912,7 +912,7 @@ export const productDetails = {
   etpTreatment: {
     title: "ETP Treatment Chemicals",
     image: "https://static.wixstatic.com/media/8380d5_3c0ba93de5ac457dbfea4dcf81cf31b0~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/8380d5_3c0ba93de5ac457dbfea4dcf81cf31b0~mv2.jpg",
-    heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt2e43hh71uVELbe4XGzMZKf9w9zxNBgrVng&s",
+    heroImage: "https://plus.unsplash.com/premium_photo-1682144326897-4a7149b991f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     secondaryImage: "https://cdn.pixabay.com/photo/2017/10/07/16/27/treatment-plant-wastewater-2826990_960_720.jpg",
     ctaImage: "https://images.unsplash.com/photo-1581092162384-8987c1d64926?w=1470",
     galleryImages: [
