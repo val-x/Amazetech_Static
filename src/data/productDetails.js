@@ -779,7 +779,7 @@ export const productDetails = {
   },
   miningConstruction: {
     title: "Mining & Construction Water Treatment",
-    image: "https://cdn.pixabay.com/photo/2015/08/15/15/31/hamburg-889657_1280.jpg",
+    image: "https://images.unsplash.com/photo-1695169152266-d9ac86fab9c5?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     heroImage: "https://www.veoliawatertech.com/sites/g/files/dvc3601/files/styles/default/public/image/2020/05/LAN_057_retouched-small.jpg?itok=c6pffiMf",
     secondaryImage: "https://chunkewatertreatment.com/wp-content/uploads/2024/07/water-treatment-for-mining-1024x585.png",
     ctaImage: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1470",

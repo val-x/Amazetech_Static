@@ -2,10 +2,10 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import Innovative_Water_Treatment from "../assest/water.jpg";
-import Refreshing_the_planet from "../assest/Refreshing_the_planet.jpg";
+// import Innovative_Water_Treatment from "../assest/water.jpg";
+// import Refreshing_the_planet from "../assest/Refreshing_the_planet.jpg";
 import Innovations from "../assest/Innovations.jpg";
-import water_services from "../assest/water_services.jpg";
+// import water_services from "../assest/water_services.jpg";
 import { Helmet } from "react-helmet";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -61,7 +61,7 @@ export default function Hero() {
         <div className="absolute inset-0">
             <img
               // src={Innovative_Water_Treatment}
-              src="https://cdn.pixabay.com/photo/2013/11/06/12/50/wurzburg-206414_1280.jpg"
+              src="https://images.unsplash.com/photo-1622322977885-8ee6d45ea016?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Water Services"
               loading="lazy"
               className="h-full w-full object-cover"
@@ -107,10 +107,10 @@ export default function Hero() {
               <h1 className=" text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">
                 Refreshing the planet for over 7 years
               </h1>
-              <p className=" text-2xl sm:text-1xl md:text-2xl lg:text-2xl font-serif text-white mb-8">
+              {/* <p className=" text-2xl sm:text-1xl md:text-2xl lg:text-2xl font-serif text-white mb-8">
                 By Conserving the Planet’s Most Precious Resources through Total
                 Water and Environment Management
-              </p>
+              </p> */}
 
               <div className="button-container">
                 <Link
