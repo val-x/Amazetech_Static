@@ -35,7 +35,7 @@ export default function Plants() {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 2,
+      items: 1,
       slidesToSlide: 1,
     },
     tablet: {
@@ -51,7 +51,7 @@ export default function Plants() {
   };
 
   return (
-    <section className="py-20 md:px-20 px-15 bg-[#F7F8F3]">
+    <section className="py-20 md:px-20 bg-[#F7F8F3]">
       <Helmet>
         <title>
           World-Class Water Treatment Facilities | Amazetech Corporation
@@ -61,15 +61,15 @@ export default function Plants() {
           content="Discover Amazetech Corporation's innovative water treatment facilities engineered for sustainability and efficiency."
         />
       </Helmet>
-      <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-20">
+      <div className="container mx-auto">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-20">
           {/* Text Section */}
-          <div className=" p-12">
-            <div className="w-full h-[30px]  mb-3 flex items-center">
-              <div className=" font-bold mr-4">Our Facilities</div>
-              <div className="w-[40%]  h-[5%] bg-black"></div>
+          <div className="p-4 md:p-12">
+            <div className="flex items-center mb-3">
+              <div className="font-bold">Our Facilities</div>
+              <div className="w-[40%] ml-4 h-[2px] bg-black"></div>
             </div>
-            <h2 className="text-3xl font-bold mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
               State-of-the-Art{" "}
               <span className="text-[#90C418]">Water Treatment Facilities</span>{" "}
               for Sustainability
@@ -82,46 +82,59 @@ export default function Plants() {
               with environmental standards.
             </p>
 
-            <button>
-              <Link
-                to="/contact"
-                className="bg-[#90C418] text-white px-8 py-3 rounded-full font-medium hover:bg-[#7BA615] transition-colors"
-                aria-label="Contact Amazetech Corporation for water treatment solutions"
-              >
-                Get in Touch
-              </Link>
-            </button>
+            <Link
+              to="/contact"
+              className="inline-block bg-[#90C418] text-white px-8 py-3 rounded-full font-medium hover:bg-[#7BA615] transition-colors"
+              aria-label="Contact Amazetech Corporation for water treatment solutions"
+            >
+              Get in Touch
+            </Link>
           </div>
-          {/* Image Grid Section */}
-          <Carousel
-            responsive={responsive}
-            infinite={true}
-            autoPlay={true}
-            autoPlaySpeed={3000}
-            keyBoardControl={true}
-            showDots={true}
-            swipeable={true}
-            draggable={true}
-          >
-            {slides.map((slide, index) => (
-              <div key={index} style={{ padding: "50px 20px" }}>
-                <div className="box object-contain overflow-hidden">
+
+          {/* Carousel Section */}
+          <div className="w-full">
+            <Carousel
+              responsive={responsive}
+              infinite={true}
+              autoPlay={true}
+              autoPlaySpeed={3000}
+              keyBoardControl={true}
+              showDots={true}
+              swipeable={true}
+              draggable={true}
+              removeArrowOnDeviceType={["tablet", "mobile"]}
+              dotListClass="custom-dot-list-style"
+              containerClass="carousel-container"
+            >
+              {slides.map((slide, index) => (
+                <div key={index} className="px-4 pb-8 md:pb-4">
                   <img
                     src={slide.url}
                     alt={slide.alt}
                     loading="lazy"
+                    className="w-full rounded-lg"
                     style={{
-                      width: "100%",
-                      height: "350px",
-                      borderRadius: "8px",
+                      height: window.innerWidth >= 768 ? '500px' : '300px',
+                      objectFit: 'cover'
                     }}
                   />
                 </div>
-              </div>
-            ))}
-          </Carousel>
+              ))}
+            </Carousel>
+          </div>
         </div>
       </div>
+
+      <style jsx>{`
+        .carousel-container {
+          padding-bottom: 30px;
+        }
+        @media (min-width: 768px) {
+          .carousel-container {
+            padding-bottom: 0;
+          }
+        }
+      `}</style>
     </section>
   );
 }
