@@ -17,6 +17,7 @@ import {
   FlaskConical,
   Container,
   Gauge,
+  Mail,
 } from "lucide-react";
 import Water from "../../assest/water.jpg";
 import Refreshing_the_planet from "../../assest/Refreshing_the_planet.jpg";
@@ -320,22 +321,24 @@ const GalleryAndQuality = () => {
               </div>
             </div>
             <div className="mt-4 md:mt-0">
-              <div className="text-white flex items-center">
-                <Phone className="w-5 h-5 mr-2" />
-                <span>For Enquiries:</span>
-                <a
-                  href="tel:+918883338262"
-                  className="ml-2 hover:text-[#90C418]"
-                >
-                  +91 88833 38262
-                </a>
-                ,
-                <a
-                  href="tel:+919842751296"
-                  className="ml-2 hover:text-[#90C418]"
-                >
-                  +91 98427 51296
-                </a>
+              <div className="text-white flex items-center justify-between"> {/* Added justify-between */}
+                <span className="mr-4">For Enquiries:</span> {/* Added margin-right */}
+                <div className="flex items-center space-x-4"> {/* Added space-x-4 for spacing */}
+                  <Phone className="w-5 h-5" />
+                  <a
+                    href="tel:+918883338262"
+                    className="hover:text-[#90C418]"
+                  >
+                    +91 9946303595
+                  </a>
+                  <Mail />
+                  <a
+                    href="mailto:amazetechcrpn999@gmail.com" 
+                    className="hover:text-[#90C418]"
+                  >
+                    amazetechcrpn999@gmail.com
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -347,7 +350,7 @@ const GalleryAndQuality = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">
-              Quality Assurance at AMAZETECH Corporation  Pvt Ltd
+              Quality Assurance at AMAZETECH Corporation Pvt Ltd
             </h2>
             <p className="text-gray-600 leading-relaxed mb-8">
               At AMAZETECH, quality is the foundation of everything we do. As a
