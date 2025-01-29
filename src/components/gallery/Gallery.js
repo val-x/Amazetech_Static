@@ -350,7 +350,7 @@ const GalleryAndQuality = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">
-              Quality Assurance at AMAZETECH Corporation Pvt Ltd
+              Quality Assurance at AMAZETECH Corporation
             </h2>
             <p className="text-gray-600 leading-relaxed mb-8">
               At AMAZETECH, quality is the foundation of everything we do. As a
